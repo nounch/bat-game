@@ -7,15 +7,15 @@ you want.
 
 It uses characters only (they can be configured):
 
-| . | Dirt      |
-| # | Stone     |
-| ^ | Tree      |
-| x | Dead body |
-| @ | Player    |
-| w | Bat       |
-| o | Coin      |
-| + | Health-up |
-| > | Stairs    |
+    .  Dirt
+    #  Stone
+    ^  Tree
+    x  Dead body
+    @  Player
+    w  Bat
+    o  Coin
+    +  Health-up
+    >  Stairs
 
 # Here Is How You Run It
 
