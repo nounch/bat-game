@@ -1,0 +1,88 @@
+---
+
+###########################################################################
+#                                                                         #
+#   ____             __ _                       _   _                     #
+#  / ___|___  _ __  / _(_) __ _ _   _ _ __ __ _| |_(_) ___  _ __          #
+# | |   / _ \| '_ \| |_| |/ _` | | | | '__/ _` | __| |/ _ \| '_ \         #
+# | |__| (_) | | | |  _| | (_| | |_| | | | (_| | |_| | (_) | | | |        #
+#  \____\___/|_| |_|_| |_|\__, |\__,_|_|  \__,_|\__|_|\___/|_| |_|        #
+#                         |___/                                           #
+#                                                                         #
+###########################################################################
+
+
+# If configuration options are changed to values that are not supported
+# by the underlying terminal or terminal emulator or that do not make
+# sense, then the game may show unexpected behavior, of course (example:
+# `width'/`height' greater than the terminal/terminal emulator window or
+# `color' set to `true', though colors are not supported by the terminal).
+
+
+#  ____                           
+# / ___|  ___ _ __ ___  ___ _ __  
+# \___ \ / __| '__/ _ \/ _ \ '_ \ 
+#  ___) | (__| | |  __/  __/ | | |
+# |____/ \___|_|  \___|\___|_| |_|
+
+width: 80
+height: 40
+
+# Use colors
+# `true': use color, `false': do not use color
+# (requires an ANSI-compliant terminal/terminal emulator)
+color: false
+
+# Shake the screen when using heavy guns.
+# `true': do shake, `false': do not shake
+shake: true
+
+
+#  ___ _                     
+# |_ _| |_ ___ _ __ ___  ___ 
+#  | || __/ _ \ '_ ` _ \/ __|
+#  | || ||  __/ | | | | \__ \
+# |___|\__\___|_| |_| |_|___/
+
+# Number of items and entities
+#
+# Coins
+min_coins: 10
+max_coins: 15
+# Health-ups
+min_health_ups: 5
+max_health_ups: 15
+
+
+#  _____       _   _ _   _           
+# | ____|_ __ | |_(_) |_(_) ___  ___ 
+# |  _| | '_ \| __| | __| |/ _ \/ __|
+# | |___| | | | |_| | |_| |  __/\__ \
+# |_____|_| |_|\__|_|\__|_|\___||___/
+
+# Bats
+min_bats: 15
+max_bats: 20
+
+
+#  _                   _ 
+# | |    _____   _____| |
+# | |   / _ \ \ / / _ \ |
+# | |__|  __/\ V /  __/ |
+# |_____\___| \_/ \___|_|
+
+# Stairs
+min_stairs: 5
+max_stairs: 5
+
+# Text characters (Only single chars are supported.)
+dirt: '.'
+stone: '#'
+tree: '^'
+dead_body: 'x'
+player: '@'
+bat: 'w'
+coin: 'o'
+health_up: '+'
+stairs: '+'
+star: '*'
