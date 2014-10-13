@@ -14,10 +14,11 @@ class Screen
   end
 
   def clear_screen()
-    # In case `tput' was not available, you could alwos use an ANSI escape
-    # sequence:
-    # puts("\033[H\033[2J")
-    system("tput clear")
+    begin
+      system("tput clear")
+    rescue
+      puts("\033[H\033[2J")
+    end
   end
 
   def put(x, y, char)
